@@ -1,8 +1,3 @@
-//GPT provided two solutions
-
-//----------------------------------------------------------------
-//SOLUTION 1
-//----------------------------------------------------------------
 #include <iostream>
 #include <vector>
 #include <omp.h> // Include the OpenMP header
@@ -19,20 +14,16 @@ std::vector<int> sieveOfEratosthenes(int n)
     // Mark 0 and 1 as non-prime
     isPrime[0] = isPrime[1] = false;
 
-    // Parallelize the outer loop using OpenMP
-    #pragma omp parallel
+    // Sequential part: Mark multiples of each number as non-prime
+    for (int i = 2; i * i <= n; ++i)
     {
-        // Each thread will work on different ranges of j values
-        #pragma omp for schedule(dynamic)
-        for (int i = 2; i * i <= n; ++i)
+        if (isPrime[i])
         {
-            if (isPrime[i])
+            // Parallelize the marking of multiples of i
+            #pragma omp parallel for schedule(dynamic)
+            for (int j = i * i; j <= n; j += i)
             {
-                // Mark all multiples of i as non-prime
-                for (int j = i * i; j <= n; j += i)
-                {
-                    isPrime[j] = false;
-                }
+                isPrime[j] = false;
             }
         }
     }

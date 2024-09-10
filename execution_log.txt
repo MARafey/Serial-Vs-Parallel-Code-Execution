@@ -1,0 +1,133 @@
+System Information:
+RAM: 15Gi
+CPU: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+Threads: 8
+
+Running Gemini/Gemini + 2-sum problem .cpp
+Execution time: .001885623 seconds
+
+Running Gemini/Gemini + DFS.cpp
+Execution time: .001901406 seconds
+
+Running Gemini/Gemini + Duplicate Detection.cpp
+Execution time: .001850205 seconds
+
+Running Gemini/Gemini + Febonacci.cpp
+Execution time: .001894328 seconds
+
+Running Gemini/Gemini +Greedy Algo.cpp
+Execution time: .001826817 seconds
+
+Failed to compile Gemini/Gemini + Knapsack Problem.cpp
+
+Running Gemini/Gemini + Matrix Multiplication.cpp
+Execution time: .002014190 seconds
+
+Failed to compile Gemini/Gemini + Merge Sort.cpp
+
+Failed to compile Gemini/Gemini +  palindrome .cpp
+
+Failed to compile Gemini/Gemini + Rabbit and Tortise.cpp
+
+Running Gemini/Gemini + Reverse a string .cpp
+Execution time: .001839524 seconds
+
+Failed to compile Gemini/Gemini + Sieve of Eratosthenes.cpp
+
+Failed to compile Gemini/Gemini + Simple Search.cpp
+
+Failed to compile Gemini/Gemini + String Matching.cpp
+
+Running Gemini/Gemini + Sum and Average.cpp
+Execution time: .001911645 seconds
+
+Running ChatGPT/2-sum problem-GPT.cpp
+Execution time: .002286264 seconds
+
+Running ChatGPT/DFS-GPT.cpp
+Execution time: .002362749 seconds
+
+Running ChatGPT/Duplicate Detection-GPT.cpp
+Execution time: .002491286 seconds
+
+Running ChatGPT/Fibonacci-GPT.cpp
+Execution time: .002126878 seconds
+
+Running ChatGPT/Greedy Algo-GPT.cpp
+Execution time: .002112621 seconds
+
+Running ChatGPT/Knapsack Problem-GPT.cpp
+Execution time: .002185306 seconds
+
+Running ChatGPT/Matrix Multiplication-GPT.cpp
+Execution time: .002315579 seconds
+
+Running ChatGPT/Merge Sort-GPT.cpp
+Execution time: .002966717 seconds
+
+Running ChatGPT/Palindrome-GPT.cpp
+Execution time: .009078973 seconds
+
+Running ChatGPT/Rabbit Tortoise Algo-GPT.cpp
+Execution time: .002461014 seconds
+
+Running ChatGPT/Reversing a string-GPT.cpp
+Execution time: .002201975 seconds
+
+Running ChatGPT/Sieve of Eratosthenes-GPT.cpp
+Execution time: .002178847 seconds
+
+Running ChatGPT/Simple search-GPT.cpp
+Execution time: .002165026 seconds
+
+Running ChatGPT/String Matching-GPT.cpp
+Execution time: .002364329 seconds
+
+Running ChatGPT/Sum and Avg-GPT.cpp
+Execution time: .002151145 seconds
+
+Running Serial/2-Sum Problem.cpp
+Execution time: .001900672 seconds
+
+Running Serial/DFS.cpp
+Execution time: .001818699 seconds
+
+Running Serial/Duplicate Detection.cpp
+Execution time: .001800314 seconds
+
+Running Serial/Fibonacci.cpp
+Execution time: .001843485 seconds
+
+Running Serial/Greedy Algo.cpp
+Execution time: .001892271 seconds
+
+Running Serial/knapsack problem.cpp
+Execution time: .001841162 seconds
+
+Running Serial/Matrix Multiplication.cpp
+Execution time: .001995183 seconds
+
+Running Serial/Merge Sort.cpp
+Execution time: .002492071 seconds
+
+Running Serial/Palindrome Checking.cpp
+Execution time: .001883803 seconds
+
+Running Serial/rabbit tortoise algo.cpp
+Execution time: .002247884 seconds
+
+Running Serial/Reverse a String.cpp
+Execution time: .001755522 seconds
+
+Running Serial/Sieve of Eratosthenes.cpp
+Execution time: .001859192 seconds
+
+Running Serial/Simple Search.cpp
+Execution time: .001808258 seconds
+
+Running Serial/String Matching.cpp
+Execution time: .001909945 seconds
+
+Running Serial/Sum and average.cpp
+Execution time: .001831618 seconds
+
